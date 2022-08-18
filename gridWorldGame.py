@@ -20,9 +20,6 @@ class Grid: # Environment
 
   def current_state(self):
     return (self.i, self.j)
-  
-  def test_funct():
-    print("aaa")
 
   def is_terminal(self, s):
     return s not in self.actions
@@ -93,6 +90,8 @@ def standard_grid():
   g.set(rewards, actions)
   return g
 
+def test_funct():
+  print("aaa")
 
 def negative_grid(step_cost=-0.1):
   # in this game we want to try to minimize the number of moves
