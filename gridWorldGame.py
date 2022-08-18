@@ -91,7 +91,7 @@ def standard_grid():
   return g
 
 def test_funct():
-  print("aaa")
+  print("Salut")
 
 def negative_grid(step_cost=-0.1):
   # in this game we want to try to minimize the number of moves
