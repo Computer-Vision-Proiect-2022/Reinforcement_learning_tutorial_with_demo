@@ -20,6 +20,9 @@ class Grid: # Environment
 
   def current_state(self):
     return (self.i, self.j)
+  
+  def test_funct():
+    print("aaa");
 
   def is_terminal(self, s):
     return s not in self.actions
