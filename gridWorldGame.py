@@ -22,7 +22,7 @@ class Grid: # Environment
     return (self.i, self.j)
   
   def test_funct():
-    print("aaa");
+    print("aaa")
 
   def is_terminal(self, s):
     return s not in self.actions
